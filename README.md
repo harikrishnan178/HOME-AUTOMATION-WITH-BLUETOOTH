@@ -18,3 +18,5 @@ This program enables the control of four LEDs connected to an ESP32 board via Bl
 In the main loop, the program listens for incoming Bluetooth commands, and depending on the received character, it turns the corresponding LED on or off. Each command is associated with a specific character ('1' to '8'): for example, '1' turns LED1 on, '2' turns LED1 off, '3' turns LED2 on, and so on. After executing each command, the program sends a feedback message to the Bluetooth device, confirming the action (e.g., "LED1 ON" or "LED2 OFF"). If an invalid command is received, the program responds with "Invalid Command." This project serves as a simple demonstration of remote control using Bluetooth, suitable for basic home automation or IoT applications.
 
 *OUTPUT* :
+
+![Image](https://github.com/user-attachments/assets/8b962eee-60d9-44b8-bca0-177a616168c8)
